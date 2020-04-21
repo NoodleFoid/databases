@@ -1,0 +1,358 @@
+/*
+ * NewJavaFXStage.fx
+ *
+ * Created on 20-apr-2020, 13:37:43
+ */
+
+package newpackage;
+
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.text.Text;
+import javafx.scene.text.Font;
+import javafx.scene.shape.Rectangle;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
+
+/**
+ * @author Laura
+ */
+
+Stage {
+    title: "Application title"
+    scene: Scene {
+        width: 1000
+        height: 500
+        content: [
+
+
+                Text {
+	font : Font {
+		size: 24
+	}
+	x: 10, y: 20
+	content: "Persoontabel"
+}
+
+
+
+
+            Text {
+                font : Font {
+                    size : 16
+                }
+                x: 10
+                y: 50
+                content: "Wie"
+
+            }
+
+            Text {
+                font : Font {
+                    size : 16
+                }
+                x: 10
+                y: 80
+                content: "Laura"
+
+            }
+
+            Text {
+                font : Font {
+                    size : 16
+                }
+                x: 10
+                y: 110
+                content: "Leire"
+
+            }
+
+            Text {
+                font : Font {
+                    size : 16
+                }
+                x: 10
+                y: 140
+                content: "Patrick"
+
+            }
+
+            Text {
+                font : Font {
+                    size : 16
+                }
+                x: 10
+                y: 170
+                content: "Roos"
+
+            }
+            
+
+Line {
+	startX: 5, startY: 60
+	endX: 995, endY: 60
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+
+Line {
+	startX: 5, startY: 90
+	endX: 995, endY: 90
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+
+Line {
+	startX: 5, startY: 120
+	endX: 995, endY: 120
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+
+Line {
+	startX: 5, startY: 150
+	endX: 995, endY: 150
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 100, y: 50
+	content: "Leerlingnummer"
+}
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 100, y: 80
+	content: "116110"
+}
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 100, y: 110
+	content: "116119"
+}
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 100, y: 140
+	content: "115498"
+}
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 100, y: 170
+	content: "116153"
+}
+
+
+
+
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 250, y: 50
+	content: "Docentcode"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 250, y: 80
+	content: "Rad"
+}
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 250, y: 110
+	content: "Rad"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 250, y: 140
+	content: "Rad"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 250, y: 170
+	content: "Rad"
+}
+
+
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 370, y: 50
+	content: "Klas"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 370, y: 80
+	content: "5hf"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 370, y: 110
+	content: "5hb"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 370, y: 140
+	content: "5hd"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 370, y: 170
+	content: "5hd"
+}
+
+
+
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 450, y: 50
+	content: "Totaal tijd"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 450, y: 80
+	content: "2 uur en 40 min"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 450, y: 110
+	content: "1 uur"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 450, y: 140
+	content: "1 uur en 50 min"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 450, y: 170
+	content: "3 uur en 50 min"
+}
+
+
+
+
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 600, y: 50
+	content: "Genootnummer"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 600, y: 80
+	content: "1"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 600, y: 110
+	content: "2"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 600, y: 140
+	content: "3"
+}
+Text {
+	font : Font {
+		size: 16
+	}
+	x: 600, y: 170
+	content: "4"
+}
+
+
+
+
+Line {
+	startX: 80, startY: 30
+	endX: 80, endY: 180
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+Line {
+	startX: 230, startY: 30
+	endX: 230, endY: 180
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+Line {
+	startX: 355, startY: 30
+	endX: 355, endY: 180
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+Line {
+	startX: 430, startY: 30
+	endX: 430, endY: 180
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+Line {
+	startX: 590, startY: 30
+	endX: 590, endY: 180
+	strokeWidth: 1
+	stroke: Color.BLACK
+}
+
+
+
+            
+
+
+        ]
+    }
+}
